@@ -5,9 +5,7 @@
     "secretAccessKey": "${process.env.SECRET_ACCESS_KEY}",
     "endpoint": "ams3.digitaloceanspaces.com",
     "optimize": {
-      "resize": true,
-      "width": 1000,
-      "height": 1000
+      "resize": false
     },
     "settings": {
       "awsUploadFolder": "media"
